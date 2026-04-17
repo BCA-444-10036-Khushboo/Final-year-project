@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+
+
+
+.main-con{
+    margin-top: 20px;
+}
+
+.signup-form{
+    box-shadow: 0px 0px  10px #fff;
+}
+.bold{
+    font-weight: 600;
+}
+
+.pass_con,.email_con{
+    position: relative;
+
+}
+.pass_icon,.email_loader{
+    position: absolute;
+    top: 45px;
+    right:20px;
+    cursor: pointer;
+    color: #ccc;
+    
+}
+
+.signup-formm, .activation-form {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.card-header {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  border: none;
+}
+.btn-primary:hover {
+  background: linear-gradient(135deg, #00f2fe, #4facfe);
+}
+
+.input-group-text {
+  background: #f8f9fa;
+  cursor: pointer;
+}
+
+.live-stats-title {
+  font-size: 2.2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+  background: linear-gradient(135deg, #8e2de2, #4a00e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+}
+.live-stats-title::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #4a00e0;
+  margin: 10px auto 0;
+  border-radius: 2px;
+}
